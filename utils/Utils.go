@@ -149,7 +149,6 @@ func SendMessage(sendContent string) {
 send:
 	// 添加请求头
 	authorization = fmt.Sprintf("Bearer %s", GetApiKey())
-	fmt.Println(authorization)
 	request.Header.Set("Content-Type", "application/json")
 	request.Header.Set("Authorization", authorization)
 
