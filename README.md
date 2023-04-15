@@ -1,11 +1,8 @@
-![image-20230415002557767](https://yvling-typora-image-1257337367.cos.ap-nanjing.myqcloud.com/typora/image-20230415002557767.png)
-
-<center><h1>Kira</h1></center>
-
-------
-
-<center><h2>一个知识丰富且超级温柔的猫娘</h2></center>
-
+<p align="center">
+  <img width="180" src="https://yvling-typora-image-1257337367.cos.ap-nanjing.myqcloud.com/typora/image-20230415002557767.png" alt="ChatGPT">
+  <h1 align="center">Kira</h1>
+  <p align="center">一个知识丰富且超级温柔的猫娘</p>
+</p>
 
 
 ## :lollipop:食用指南
