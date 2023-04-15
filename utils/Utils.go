@@ -111,7 +111,7 @@ func init() {
 	}
 }
 
-func GetApiKey(keyIndex int, keyList []string) string {
+func GetApiKey() string {
 	keyIndex += 1
 	if keyIndex >= len(keyList) {
 		keyIndex = 0
@@ -148,7 +148,8 @@ func SendMessage(sendContent string) {
 
 send:
 	// 添加请求头
-	authorization = fmt.Sprintf("Bearer %s", GetApiKey(keyIndex, keyList))
+	authorization = fmt.Sprintf("Bearer %s", GetApiKey())
+	fmt.Println(authorization)
 	request.Header.Set("Content-Type", "application/json")
 	request.Header.Set("Authorization", authorization)
 
